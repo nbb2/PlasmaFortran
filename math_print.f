@@ -8,11 +8,22 @@ c     -----------------------------------------------------------------
 c
 c     A = Real number input
 c     B = operated number
+c     C = EXP(B)
+c
+c     ----------------------------------------------------------------
 c
 c
 c
+      PRINT *, "Please enter in a real number"
       READ *, A
-      B = 2 * A
-      PRINT *, B
+      PRINT*,'------------------------------'
+      B = 2.0 * A
+      PRINT *, 'B =', B
+      PRINT*,'------------------------------'
+      C = EXP(B)
+      PRINT *, 'C=', C
+c
+c
+c
       STOP
       END
